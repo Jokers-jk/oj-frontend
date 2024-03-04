@@ -17,7 +17,7 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     semi: [2, 'always'], //语句强制分号结尾
-    quotes: [2, 'single'], //引号类型 ""
+    quotes: [1, 'single'], //引号类型 ""
     'comma-dangle': ['error', 'never'],
     'no-alert': 0, //禁止使用alert
     'no-const-assign': 2, //禁止修改const声明的变量
